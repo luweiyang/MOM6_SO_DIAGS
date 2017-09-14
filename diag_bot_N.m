@@ -110,7 +110,8 @@ n2s = sum(n2m,3);
 disp('Writing...')
 %save /short/v45/lxy581/mom6/diag/n2_SO_10_b5_v32_y28_170825.mat n2m n2s xh yh
 %save /short/v45/lxy581/mom6/diag/n2_SO_10_b5_v32_y30_170831.mat n2m n2s xh yh
-save /short/v45/lxy581/mom6/diag/n2_SO_10_b5_v33_y50_170907.mat n2m n2s xh yh
+%save /short/v45/lxy581/mom6/diag/n2_SO_10_b5_v33_y50_170907.mat n2m n2s xh yh
+save /short/v45/lxy581/mom6/diag/n2_SO_10_b5_v33_y50_170914.mat n2m n2s xh yh lat
 
 toc
 disp('Finished');
